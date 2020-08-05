@@ -36,14 +36,8 @@ public class Test03 {
 
         String s = sb.reverse().toString();
 
-        boolean b = false;
 
-        if (str.equals(s)) {
-
-                b = true;
-        }
-
-        return b;
+        return str.equals(s);
 
 
     }

@@ -31,15 +31,7 @@ public class Test01 {
 
 
 	}
-	/**
-	 * 以当前方法为例，下面继续编写test2,test3...等方法。
-	 * 每个方法中实现类描述中的一个需求。
-	 * 当前方法实现:1输出字符串"HelloWorld"的字符串长度
-	 *
-	 * test2实现:2:输出"HelloWorld"中"o"的位置
-	 * 以此类推。
-	 * @param str
-	 */
+
 	public static void test1(String str){
 		// 1:输出字符串"HelloWorld"的字符串长度
 		System.out.println("1、字符串长度:"+ str.length());

@@ -29,7 +29,10 @@ public class Test04 {
         ls.add(8);
         ls.add(9);
         System.out.println(ls);
-        List<Integer> ls1 = ls.subList(3,7);  //返回列表中指定的fromIndex （含）和toIndex之间的部分视图。 （如果fromIndex和toIndex相等，返回的列表为空。）返回的列表由此列表支持，因此返回列表中的非结构性更改将反映在此列表中，反之亦然。 返回的列表支持此列表支持的所有可选列表操作。
+
+        List<Integer> ls1 = ls.subList(3,7);  //返回列表中指定的fromIndex （含）和toIndex之间的部分视图。
+        // （如果fromIndex和toIndex相等，返回的列表为空。）
+        // 返回的列表由此列表支持，因此返回列表中的非结构性更改将反映在此列表中，反之亦然。 返回的列表支持此列表支持的所有可选列表操作。
 
         System.out.println(ls1);
         for (int i = 0; i < ls1.size(); i++) {
