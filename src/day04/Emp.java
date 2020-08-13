@@ -1,5 +1,6 @@
 package day04;
 
+import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.Objects;
 
@@ -77,7 +78,10 @@ public class Emp<p> {
 
     @Override
     public String toString() {
-        return name+","+age+","+gender+","+salary+","+hiredate;
+        SimpleDateFormat sf = new SimpleDateFormat("yyyy-MM-dd");
+
+        String str = sf.format(hiredate );
+        return name+","+age+","+gender+","+salary+","+str ;
     }
 
     @Override

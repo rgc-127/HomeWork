@@ -2,7 +2,7 @@ package day03;
 
 import java.util.ArrayList;
 import java.util.Collection;
-import java.util.Collections;
+
 
 /**
  * 创建一个集合，存放字符串"one","two"，"three"

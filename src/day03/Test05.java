@@ -34,8 +34,7 @@ public class Test05 {
             System.out.println(birthday);
             SimpleDateFormat sf = new SimpleDateFormat("yyyyMMdd");
 
-            Date date = new Date();
-            date = sf.parse(birthday);
+            Date date = sf.parse(birthday);
 
             SimpleDateFormat sf1 = new SimpleDateFormat("yyyy-MM-dd");
 
@@ -44,16 +43,12 @@ public class Test05 {
             cl.setTime(date);
 
             cl.add(Calendar.YEAR,20);
-            date = cl.getTime();
-
-            String ss = sf1.format(date);
-
 
             cl.set(Calendar.DAY_OF_WEEK,Calendar.WEDNESDAY);
 
             date = cl.getTime();
 
-            ss = sf1.format(date);
+            String ss = sf1.format(date);
 
             System.out.println("20岁生日所在周的周三的日期为："+ss);
 

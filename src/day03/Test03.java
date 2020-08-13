@@ -20,7 +20,7 @@ public class Test03 {
 
         String s = console.nextLine();
 
-        Date date = new Date();
+        Date date;
         SimpleDateFormat sf = new SimpleDateFormat("yyyy-MM-dd");
         date = sf.parse(s);
 

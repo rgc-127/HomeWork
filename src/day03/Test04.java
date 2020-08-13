@@ -24,8 +24,7 @@ public class Test04 {
 
 
         SimpleDateFormat sf = new SimpleDateFormat("yyyy-MM-dd");
-        Date date = new Date();
-        date = sf.parse(str);
+        Date date = sf.parse(str);
         Calendar cl = Calendar.getInstance();
         cl.setTime(date);
         cl.add(Calendar.DAY_OF_YEAR,tian);
